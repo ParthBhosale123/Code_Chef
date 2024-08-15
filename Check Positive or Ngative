@@ -1,0 +1,52 @@
+Positive and Negative
+Write a program to check whether the three given numbers as input are Positive, Negative, or Zero.
+Sample 1:
+Input:
+  20  
+  0  
+  -95
+
+
+Output:
+  Positive  
+  Zero  
+  Negative
+
+ANSWER:-->
+
+import java.util.Scanner;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        Scanner scanner = new Scanner(System.in);
+        int num;
+        num = scanner.nextInt();
+
+        if (num > 0)
+            System.out.println("Positive");
+        else if (num < 0)
+            System.out.println("Negative");
+        else
+            System.out.println("Zero");
+
+        num = scanner.nextInt();
+
+        if (num > 0)
+            System.out.println("Positive");
+        else if (num < 0)
+            System.out.println("Negative");
+        else
+            System.out.println("Zero");
+
+        num = scanner.nextInt();
+
+        if (num > 0)
+            System.out.println("Positive");
+        else if (num < 0)
+            System.out.println("Negative");
+        else
+            System.out.println("Zero");
+    }
+}
